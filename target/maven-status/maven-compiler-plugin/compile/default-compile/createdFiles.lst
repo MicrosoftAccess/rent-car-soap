@@ -1,0 +1,6 @@
+com\rentcar\soap\DBConnector.class
+com\rentcar\soap\CarsServiceImpl.class
+com\rentcar\soap\Main.class
+com\rentcar\soap\ClienteSOAP.class
+com\rentcar\soap\CarsService.class
+com\rentcar\soap\Car.class
