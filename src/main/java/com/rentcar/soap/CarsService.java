@@ -8,7 +8,7 @@ import java.util.List;
 public interface CarsService {
     @WebMethod
     String saludar(String nombre);
-    
+    // Returns a list with cars
     @WebMethod
     List<Car> getCars();
 }

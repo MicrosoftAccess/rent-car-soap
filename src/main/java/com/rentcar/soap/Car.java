@@ -1,7 +1,7 @@
 package com.rentcar.soap;
 
 import javax.xml.bind.annotation.XmlRootElement;
-
+// Car clase
 @XmlRootElement
 public class Car {
     private int id;
@@ -13,7 +13,7 @@ public class Car {
     private int price;
 
     public Car() {}
-
+    // Constructor
     public Car(int id, String name, int dni, String patent, String brand, String model, int price) {
         this.id = id;
         this.name = name;

@@ -10,7 +10,7 @@ public class CarsServiceImpl implements CarsService {
         return "Hola, " + nombre + "!";
     }
 
-    @Override
+    @Override // manage the connection to the database and brings a list of cars
     public List<Car> getCars() {
         DBConnector connector = new DBConnector();
         return connector.getAllCars();

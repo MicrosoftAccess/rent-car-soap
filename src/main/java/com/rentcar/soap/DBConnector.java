@@ -2,7 +2,7 @@ package com.rentcar.soap;
 import java.sql.*;
 import java.util.List;
 import java.util.ArrayList;
-
+//manages the connection to the MySQL database
 public class DBConnector {
     private final String url = "jdbc:mysql://localhost:3306/cars";
     private final String user = "root";
