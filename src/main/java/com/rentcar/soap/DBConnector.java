@@ -11,7 +11,7 @@ public class DBConnector {
     public List<Car> getAllCars() {
         List<Car> cars = new ArrayList<>();
         try (Connection conn = DriverManager.getConnection(url, user, password)) {
-            String query = "SELECT id, name, dni, brand, patent, model, price FROM car ORDER BY id DESC LIMIT 10;";
+            String query = "SELECT id, name, dni, brand, patent, model, price FROM car ORDER BY id DESC;";
             PreparedStatement stmt = conn.prepareStatement(query);
             ResultSet rs = stmt.executeQuery();
             while(rs.next()) {

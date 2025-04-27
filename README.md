@@ -15,7 +15,7 @@ Install packages and compile first
 
 Usage
 ```bash
-  mvn exec:java -Dexec.mainClass="com.rentcar.soap.Main"
+  mvn exec:java -D"exec.mainClass"="com.rentcar.soap.Main"
 ```
 
 Client Usage

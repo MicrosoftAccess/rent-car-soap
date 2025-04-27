@@ -10,6 +10,7 @@ import java.util.List;
 public class ClienteSOAP {
 
     public static void main(String[] args) throws Exception {
+         System.out.println("Hello from ClienteSOAP!");
             URL wsdlURL = new URL("http://localhost:8080/soap/cars?wsdl"); 
 
 
